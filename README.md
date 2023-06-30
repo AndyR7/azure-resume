@@ -35,21 +35,7 @@ The back-end is an [HTTP triggered Azure Functions](https://docs.microsoft.com/e
 - [Write to a Cosmos DB item with Functions binding.](https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-cosmosdb-v2-output?tabs=csharp)
 - You'll have to [enable CORS with Azure Functions locally](https://github.com/Azure/azure-functions-host/issues/1012) and once it's [deployed to Azure](https://docs.microsoft.com/en-us/azure/azure-functions/functions-how-to-use-azure-function-app-settings?tabs=portal#cors) for you website to be able to call it.
 
-## Testing Resources
-
-[Testing is important](https://dev.to/flippedcoding/its-important-to-test-your-code-3lid), though my tests are simple, they exist. I am using .NET but some of these resources will apply to any language.
-
-- [Getting Started with xUnit.net](https://xunit.net/docs/getting-started/netcore/cmdline)
-- [How to setup Xunit with Azure Functions](https://madebygps.com/how-to-use-xunit-with-azure-functions/)
-- [Testing Azure Functions.](https://docs.microsoft.com/en-us/azur/azure-functions/functions-test-a-function) 
-
-
-
-
-
-
 ## CI/CD Resources
 
 - This is how you can deploy a blob storage static site with [GitHub actions.](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-static-site-github-actions)
 - This is how you can [deploy an Azure Function to Azure with GitHub Actions.](https://github.com/marketplace/actions/azure-functions-action)
-- [Implement .NET testing in GitHub Actions.](https://docs.github.com/en/actions/guides/building-and-testing-net)
